@@ -47,6 +47,23 @@ const html2 = `<div>
 <div>`;
 console.log(html2);
 
+// Joniukas ir Gretute ejo i miska.
+const berniukas = 'Joniukas';
+const mergaite = 'Gretute';
+const vieta = 'lauka';
+const judejimoBudas = 'bego';
+
+const pasaka = `${berniukas} ir ${mergaite} ${judejimoBudas} i ${vieta}.`;
+
+console.log(pasaka);
+
+// Chuck Norris (80).
+const heroName = 'Chuck';
+const heroLast = 'Norris';
+const birth = 1940;
+
+const heroSays = `${heroName} ${heroLast} (${2020 - birth}).`;
+console.log(heroSays);
 
 
 
