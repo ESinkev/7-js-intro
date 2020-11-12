@@ -82,5 +82,55 @@ console.log(`Aplankiau: ${miestai[i]}.`);
 console.log('.........');
 
 /*
-
+Isvardinti saraso narius is galo.
 */
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+console.log(abc);
+
+for (let i = abc.length - 1; i >= 0; i--) {
+console.log(abc[i]);
+}
+
+console.log('.........');
+console.clear();
+
+// const text = 'dodekahedronas';
+//const text = 'ka tu?';
+// const text = 'ottoman';
+
+
+for (let i=0; i < text.length; i++) {
+console.log(text[i]);
+}
+
+console.log(text.length);
+
+console.log('...........');
+
+/*
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti, kas gaunasi.
+pvz.: pomidoras2 -> oioa
+pvz. pomidoras3 ->mos
+pvz. pomidoras4 ->ia
+*/
+
+const zodis = 'pomidoras';
+const step = 2;
+const pirmosRaidesPozicija = step - 1;
+let rez = '';
+
+for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
+    const raide = zodis[i];
+    rez = rez + raide;
+}
+
+console.log(rez);
+
+
+
+
+
+
+
