@@ -30,3 +30,5 @@ console.log(miestai[3]);
 console.log(miestai[2]);
 console.log(miestai[1]);
 console.log(miestai[0]);
+
+
