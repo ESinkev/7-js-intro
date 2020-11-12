@@ -70,4 +70,3 @@ console.log(allCities);
 
 console.log(cities.join(', '));
 
-
