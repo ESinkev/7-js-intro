@@ -94,14 +94,12 @@ console.log(abc[i]);
 }
 
 console.log('.........');
-console.clear();
+
 
 // const text = 'dodekahedronas';
-//const text = 'ka tu?';
-// const text = 'ottoman';
+const text = 'ottoman';
 
-
-for (let i=0; i < text.length; i++) {
+for (let i = 0; i < text.length; i++) {
 console.log(text[i]);
 }
 
@@ -110,10 +108,12 @@ console.log(text.length);
 console.log('...........');
 
 /*
-Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti, kas gaunasi.
-pvz.: pomidoras2 -> oioa
-pvz. pomidoras3 ->mos
-pvz. pomidoras4 ->ia
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
+pvz.: abcdef -> bdf
+pvz.: pomidoras (2) -> oioa
+pvz.: pomidoras (3) -> mos
+pvz.: pomidoras (4) -> ia
+pvz.: pomidoras (5) -> d
 */
 
 const zodis = 'pomidoras';
@@ -129,8 +129,5 @@ for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
 console.log(rez);
 
 
-
-
-
-
+console.log('---------');
 
