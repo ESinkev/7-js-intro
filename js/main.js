@@ -8,6 +8,8 @@ console.log(3.14);
 // kaip spausdinamas tekstas?
 console.log("Labas rytas");
 console.log('Labas rytas');
+console.log('Emilija');
+console.log(1991, 05, 14);
 
 
 /**********************
@@ -29,9 +31,9 @@ sarasai (array) - []
 objektai (objects) - {}
 */
 
-
-const pirmasSkaicius = 7;
+const pirmasSkaicius = 2;
 const antrasSkaicius = 3;
+const treciasSkaicius = 4;
 
 console.log("Pirmasis skaicius turetu buti 2.");
 console.log(pirmasSkaicius);
@@ -39,11 +41,14 @@ console.log(pirmasSkaicius);
 console.log("Antrasis skaicius turetu buti 3.");
 console.log(antrasSkaicius);
 
-const suma = pirmasSkaicius + antrasSkaicius;
+console.log(treciasSkaicius);
+
+const suma = pirmasSkaicius + antrasSkaicius + treciasSkaicius;
 
 console.log(suma);
 
-console.log(pirmasSkaicius, '+', antrasSkaicius, '=', suma);
+console.log(pirmasSkaicius, '+', antrasSkaicius, '+', treciasSkaicius, '=', suma);
+
 
 const vardas = 'Vardenis';
 const amzius = 99;
@@ -52,7 +57,9 @@ console.log(amzius);
 
 // Vardenis yra 99 metu amziaus.
 const sakinys = vardas + ' yra ' + amzius + ' metu amziaus.';
+
 console.log(sakinys);
+
 
 const suo = 'Rikis';
 const maistas = 'kaulas';
@@ -65,7 +72,7 @@ console.log(sakinys2);
 const heroName = 'Chuck';
 const heroLastname = 'Norris';
 const birth = 1940;
-const currentYear = 2021;
+const currentYear = 2020;
 const age = currentYear - birth;
 
 // Chuck Norris (80)
@@ -73,8 +80,33 @@ const age = currentYear - birth;
 const sakinys3 = heroName + ' ' + heroLastname + ' (' + age +')';
 console.log(sakinys3);
 
-const sakinys4 = 'Jo vardas ' + heroName + '.';
+const sakinys4 = 'Jo vardas: ' + heroName + '.';
 console.log(sakinys4);
+
+console.clear();
+
+let pinigine1 = 7;
+const sausis1 = 100;
+const vasaris2 = 200;
+const kovas3 = 70;
+const balandis4 = 100;
+
+
+pinigine1 = pinigine1 + sausis1;
+console.log(pinigine1);
+
+pinigine1 = pinigine1 + vasaris2;
+console.log(pinigine1);
+
+pinigine1 = pinigine1 + kovas3;
+console.log(pinigine1);
+
+pinigine1 = pinigine1 + balandis4;
+console.log(pinigine1);
+
+/*
+senas
+*/
 
 let pinigine = 7;
 const sausis = 100;
@@ -84,6 +116,7 @@ const kovas = 70;
 // 100
 // 300
 // 370
+
 pinigine = pinigine + sausis;
 console.log(pinigine);
 
