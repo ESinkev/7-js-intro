@@ -1,6 +1,7 @@
 const vardas = 'Vardenis';
 const pasisveikinimas = "Labas rytas, Lietuva!";
 
+console.log(vardas);
 console.log(pasisveikinimas);
 
 // do not -> don't
@@ -13,7 +14,8 @@ console.log(neiginys);
 const fraze = 'Jis pasake: "Labas".';
 console.log(fraze);
 
-// Mother said: "Don't do it!".
+// Mother said: "Don't do it!"
+
 const mother1 = "Mother said: \"Don't do it!\".";
 
 const mother2 = 'Mother said: "Don\'t do it!".';
@@ -35,25 +37,39 @@ const html = '<div>\n\
 console.log(html);
 
 /*
+ateity su js konstruosim html
+/*
+
 '<div>
 <p>Lorem upsum its amet</p>
 <a href="#">Don't click me</a>
 <div>'
 */
 
+const html1 = '<div>\n\
+     <p>Lorem upsum its amet</p>\n\
+     <a href="#">Don\'t click me</a>\n\
+<div>';
+console.log(html1);
+
 const html2 = `<div>
-<p>Lorem upsum its amet</p>
-<a href="#">Don't click me</a>
+     <p>Lorem upsum its amet</p>
+     <a href="#">Don\'t click me</a>
 <div>`;
 console.log(html2);
+
+
+
+
 
 // Joniukas ir Gretute ejo i miska.
 const berniukas = 'Joniukas';
 const mergaite = 'Gretute';
 const vieta = 'lauka';
-const judejimoBudas = 'bego';
+const judejimoBudas = 'ejo';
 
-const pasaka = `${berniukas} ir ${mergaite} ${judejimoBudas} i ${vieta}.`;
+// const pasaka = berniukas + ' ir ' + mergaite + ' ' + judejimoBudas + ' i ' + vieta + '.';
+const pasaka = `${berniukas} ir ${mergaite} ${judejimoBudas} i ${vieta}.`
 
 console.log(pasaka);
 
@@ -62,8 +78,11 @@ const heroName = 'Chuck';
 const heroLast = 'Norris';
 const birth = 1940;
 
-const heroSays = `${heroName} ${heroLast} (${2020 - birth}).`;
-console.log(heroSays);
+const pasake = `${heroName} ${heroLast} (${2020 - birth}).`;
+console.log(pasake);
+
+// const heroSays = `${heroName} ${heroLast} (${2020 - birth}).`;
+// console.log(heroSays);
 
 
 
