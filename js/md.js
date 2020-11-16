@@ -37,7 +37,8 @@ Veiksmai
 const sum = age + year + luckyNumber;
 console.log(sum);
 
-const zodziai = name + ' ' + city + ' ' + airplane;
+//const zodziai = name + ' ' + city + ' ' + airplane;
+const zodziai = `${name} ${city} ${airplane}`;
 console.log(zodziai);
 
 // marks ir lottery
