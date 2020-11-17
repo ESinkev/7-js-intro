@@ -1,11 +1,12 @@
 const kiek = 5;
 
-for (let  i= 0; i <= kiek; i++) {
+for (let  i= 3; i <= kiek; i++) {
     // logika
     console.log('Labas rytas!', i);
 }
 
-console.log('pabaiga');
+console.log('Pabaiga');
+
 
 let number = 7;
 console.log(number);
@@ -31,6 +32,11 @@ Jei kas menesi zmogus uzdirba 5000, tai kiek jis tures pajamu per metus?
 const alga = 5000;
 const menesiu = 12;
 let pajamos = 0;
+
+//for (let i = 0; i <=menesiu; i++) {
+  //  pajamos = pajamos + alga;
+    //console.log(pajamos);
+//}
 
 for (let i = 1; i <= menesiu; i++) {
     pajamos = pajamos + alga;
@@ -58,7 +64,7 @@ const valanda = 3;
 const maxValandu = 12;
 
 for (let val = valanda; val <= maxValandu; val++) {
-console.log(val + 'val');
+console.log(val + ' val');
 }
 
 /*
@@ -93,17 +99,25 @@ for (let i = abc.length - 1; i >= 0; i--) {
 console.log(abc[i]);
 }
 
+console.clear();
+
 console.log('.........');
 
 
-// const text = 'dodekahedronas';
-const text = 'ottoman';
+const text = 'dodekahedronas';
+console.log(text[2]);
 
-for (let i = 0; i < text.length; i++) {
-console.log(text[i]);
+for (let i = 0; text.length; i++) {
+console.log(text[1]);
 }
 
-console.log(text.length);
+//const text = 'ottoman';
+
+//for (let i = 0; i < text.length; i++) {
+//console.log(text[i]);
+//}
+
+//console.log(text.length);
 
 console.log('...........');
 
