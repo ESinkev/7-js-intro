@@ -14,16 +14,16 @@ if () {} else if {} .... else if {}
 if () {} else if {} .... else if {} else {}
 */
 
-const accountBalance = 200;
+const accountBalance = 100;
 const transfer = 200;
 
-if (accountBalance == transfer) {
-    console.log('Banko zinute: saskaitoje truksta pinigu');
-}
+//if (accountBalance == transfer) {
+  //  console.log('Banko zinute: saskaitoje truksta pinigu');
+//}
 
-if (accountBalance >= transfer) {
-    console.log('Banko zinute: pavedimas padarytas');
-}
+//if (accountBalance >= transfer) {
+  //  console.log('Banko zinute: pavedimas padarytas');
+//}
 
 if (accountBalance >= transfer) {
     console.log('Banko zinute: pavedimas padarytas');
@@ -31,7 +31,7 @@ if (accountBalance >= transfer) {
     console.log('Banko zinute: saskaitoje truksta pinigu');
 }
 
-const akys = 'raudonos';
+const akys = 'baltos';
 
 if (akys == 'melynos') {
     console.log('Grazios sirdies zmogus');
@@ -51,28 +51,27 @@ if (akys2 == 'melynos') {
 console.log('Grazios sirdies zmogus');
 } else {
     if (akys2 == 'zalios') {
-        console.log('Melagiai..');
-    } else {
+   console.log('Melagiai..');
+} else {
         if (akys2 == 'raudonos') {
-console.log('Programuotojas...'); 
+ console.log('Programuotojas...'); 
     } else {
         console.log('Ar tu turi akis');
     }
     }
 }
 
-console.clear();
 
 const pirmas = 8;
 const antras = '8';
 
-if (pirmas !== antras) {
+if (pirmas == antras) {
     console.log(true);
 } else {
     console.log(false);
 }
 
-console.clear();
+
 
 const  zodis1 = 'babcandjsfds';
 const zodis2 = 'bb';
