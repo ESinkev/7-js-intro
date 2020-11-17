@@ -95,6 +95,7 @@ besidalijančių be liekanos iš ${daliklis} yra ${kiekis} vienetai.`);
 
 /*
 funkcija kvadratu
+
 funkcija: duoto skaiciaus kelimas kvadratu
 pvz. 2  -> 4
 pvz 3 -> 9
@@ -103,7 +104,7 @@ pvz -4 -> 16
 
 function kvadratu(num) {
 const  rez = num * num;
-console.log(num, '->', rez);
+//console.log(num, '->', rez);
 return rez;
 }
 
@@ -112,7 +113,7 @@ kvadratu(2);
 kvadratu(3);
 kvadratu(-4);
 
-console.log(kvadratu(-5));
+console.log(kvadratu(-8));
 
 /*
 funkcija, kuri duota skaiciu pakelia norimu laipsniu
