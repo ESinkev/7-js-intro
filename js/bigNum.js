@@ -43,6 +43,19 @@ console.log(bigNum(false));
 console.log(bigNum([]));
 console.log(bigNum([-Infinity, NaN, true, false, [], [8], [5, -9], 'ads', undefined]));
 
+/*
+demo funkcija 
+*/
+
+function sum(a, b)  { return a + b }
+
+console.log(bigNum(sum));
+console.log(bigNum([sum]));
+
+console.log(bigNum({}));
+console.log(bigNum([{}, {}, {}]));
+
+
 console.log(bigNum([1]), '->', 1);
 console.log(bigNum([77]), '->', 77);
 console.log(bigNum([1, 2, 3]), '->', 3);
@@ -63,7 +76,5 @@ console.log(bigNum([-99999999999999, 'labas', 'labas', 'labas', 'labas']), '->',
 console.log(bigNum([1, 2, 3, 2, 1, NaN]), '->', 3);
 console.log(bigNum([1, 2, NaN, 3, 2, 1]), '->', 3);
 console.log(bigNum([NaN, 1, 2, 3, 2, 1]), '->', 3);
-
-
 
 
